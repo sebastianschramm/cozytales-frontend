@@ -15,7 +15,7 @@ function App() {
   const [errorMessage, setErrorMessage] = useState(null);
   const audioRef = useRef(null);
 
-  const url = "https://sebastianschramm-ttsfast.hf.space/genemotionfast/";
+  const url = "<YOUR_BACKEND_API_URL>";
 
   // Function to handle showing error messages and resetting the state
   const showError = (message) => {
